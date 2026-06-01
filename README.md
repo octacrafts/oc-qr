@@ -2,7 +2,7 @@
 
 **octacrafts/oc-qr** — A framework-agnostic PHP library for generating scannable QR codes (ISO/IEC 18004).
 
-Pure PHP core with no Laravel or Symfony dependency. Use it in any PHP 8.1+ project, or wrap it in a Laravel package for your ecosystem.
+Pure PHP core with no Laravel or Symfony dependency. Use it in any PHP 8.2+ project, or wrap it in a Laravel package for your ecosystem.
 
 ## Features
 
@@ -18,7 +18,7 @@ Pure PHP core with no Laravel or Symfony dependency. Use it in any PHP 8.1+ proj
 
 | Requirement | Notes |
 |-------------|--------|
-| PHP | `^8.1` |
+| PHP | `^8.2` |
 | ext-gd | Required for PNG output |
 | ext-json | Required |
 
