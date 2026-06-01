@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+
+# PHPUnit
+/.phpunit.cache/
+/phpunit.xml.cache
+/coverage/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and local debug
+*.log
+
+# Generated QR samples (keep directory via .gitkeep)
+/examples/output/*
+!/examples/output/.gitkeep
+
+# Accidental root-level outputs from local runs
+/qr.png
+/qr.svg
