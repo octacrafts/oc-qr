@@ -20,7 +20,7 @@ if (! is_dir($outputDir) && ! mkdir($outputDir, 0755, true) && ! is_dir($outputD
     throw new RuntimeException('Could not create output directory.');
 }
 
-$png = QrBuilder::create('https://example.com')
+$png = QrBuilder::create('https://any.example.com')
     ->errorCorrection(ErrorCorrectionLevel::M)
     ->size(300)
     ->margin(4)
@@ -29,7 +29,7 @@ $png = QrBuilder::create('https://example.com')
 
 file_put_contents($outputDir . '/qr.png', $png->content());
 
-$svg = QrBuilder::create('https://example.com')
+$svg = QrBuilder::create('https://any.example.com')
     ->format(OutputFormat::Svg)
     ->size(300)
     ->margin(4)
