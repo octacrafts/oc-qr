@@ -1,8 +1,29 @@
 # OC-QR
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **octacrafts/oc-qr** — A framework-agnostic PHP library for generating scannable QR codes (ISO/IEC 18004).
 
+Maintained by **[OctaCrafts](https://octacrafts.com)**.
+
 Pure PHP core with no Laravel or Symfony dependency. Use it in any PHP 8.2+ project, or wrap it in a Laravel package for your ecosystem.
+
+## About OctaCrafts
+
+[OctaCrafts](https://octacrafts.com) is a global IT systems and software engineering company that builds scalable digital ecosystems for businesses worldwide. From idea to launch, the team delivers enterprise-grade solutions focused on long-term growth, performance, and reliability.
+
+**What we do:**
+
+- **Web Development & Design** — modern, responsive, high-performance websites
+- **SaaS & ERP Solutions** — custom platforms that automate workflows and centralize operations
+- **Mobile Apps Development** — scalable Android, iOS, and cross-platform applications
+- **DevOps & Deployment** — secure cloud infrastructure, automation, and monitoring
+- **Web Maintenance** — ongoing security updates, backups, and technical support
+- **Infographics & Motion Graphics** — visual content and animations for clear communication
+
+Beyond client projects, OctaCrafts maintains open-source PHP libraries under the `oc/*` package family on [GitHub @octacrafts](https://github.com/octacrafts). Each ecosystem follows a core-plus-wrapper pattern: framework-agnostic cores for plain PHP and any PSR-compliant app, with dedicated integrations for popular frameworks.
+
+`octacrafts/oc-qr` is the framework-agnostic core for ISO/IEC 18004 QR code generation. Framework-specific wrappers can build on this package for Laravel, Symfony, and other stacks.
 
 ## Features
 
@@ -166,8 +187,10 @@ Outputs are written to `examples/output/` (gitignored).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT License. See [LICENSE](LICENSE) for details.
 
-## Author
+---
 
-[Octacrafts](https://github.com/octacrafts) — `octacrafts/oc-qr`
+**[OctaCrafts](https://octacrafts.com)** — Scalable IT Systems & AI-Driven Digital Ecosystems
+
+[octacrafts.com](https://octacrafts.com) · [info@octacrafts.com](mailto:info@octacrafts.com) · +1 (855) 424 4706
